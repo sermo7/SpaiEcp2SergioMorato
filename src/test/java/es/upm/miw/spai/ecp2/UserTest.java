@@ -50,4 +50,10 @@ public class UserTest {
     	assertEquals("SERGIO", user.upperName());
     }
     
+    
+    @Test
+    public void completeName(){
+    	assertEquals("Sergio Morato", user.completeName());
+    }
+    
 }

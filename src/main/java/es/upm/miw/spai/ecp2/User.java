@@ -41,4 +41,9 @@ public class User {
     public String upperName(){
     	return this.name.toUpperCase();
     }
+    
+    public String completeName(){
+    	return this.name + " " + this.familyName;
+    	
+    }
 }
