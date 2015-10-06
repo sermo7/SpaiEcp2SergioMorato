@@ -34,5 +34,10 @@ public class FractionTest {
         assertEquals(2.0, fractionTest2.getDenominator(), 0.001);
     }
 
-
+    @Test
+    public void multTest(){
+    	fractionTest2.mult(new Fraction (10,5));
+    	assertEquals(40, fractionTest2.getNumerator());
+    	assertEquals(10, fractionTest2.getDenominator());
+    }
 }
