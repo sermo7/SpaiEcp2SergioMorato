@@ -40,4 +40,10 @@ public class FractionTest {
     	assertEquals(40, fractionTest2.getNumerator());
     	assertEquals(10, fractionTest2.getDenominator());
     }
+    
+    @Test
+    public void isPropiaTest(){
+    	assertFalse(fractionTest2.isProper());
+    }
+    
 }

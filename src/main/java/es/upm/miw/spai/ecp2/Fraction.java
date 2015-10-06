@@ -65,4 +65,8 @@ public class Fraction {
     	this.denominator = this.denominator * fraction.denominator;
     }
     
+    public boolean isProper(){
+    	return this.numerator<this.denominator;
+    }
+    
 }
