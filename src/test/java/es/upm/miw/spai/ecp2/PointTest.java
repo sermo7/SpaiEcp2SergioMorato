@@ -44,7 +44,7 @@ public class PointTest {
     }
     
     @Test
-    public void modifyPoint() {
+    public void modifyPointTest() {
     	pt.modifyPoint(3, 2);
         assertEquals(3, pt.getX());
         assertEquals(2, pt.getY());
