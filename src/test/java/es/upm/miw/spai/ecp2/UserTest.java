@@ -52,7 +52,7 @@ public class UserTest {
     
     
     @Test
-    public void completeName(){
+    public void completeNameTest(){
     	assertEquals("Sergio Morato", user.completeName());
     }
     
