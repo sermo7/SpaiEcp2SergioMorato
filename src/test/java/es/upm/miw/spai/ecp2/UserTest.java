@@ -45,5 +45,9 @@ public class UserTest {
         assertNotEquals("M.", user.initials());
     }
     
+    @Test
+    public void upperNameTest(){
+    	assertEquals("SERGIO", user.upperName());
+    }
     
 }
