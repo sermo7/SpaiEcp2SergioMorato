@@ -40,6 +40,13 @@ public class FractionTest {
     	assertEquals(40, fractionTest2.getNumerator());
     	assertEquals(10, fractionTest2.getDenominator());
     }
+    	
+    @Test
+    public void sumTest(){        
+    		Fraction f = new Fraction (2,3);
+        	assertEquals(16, fractionTest2.sum(f).getNumerator());
+        	assertEquals(6, fractionTest2.sum(f).getDenominator());  	
+    }
     
     @Test
     public void isPropiaTest(){

@@ -69,4 +69,11 @@ public class Fraction {
     	return this.numerator<this.denominator;
     }
     
+    public Fraction sum(Fraction fraction){
+    	Fraction resultantFraction = new Fraction();
+    	resultantFraction.denominator=this.denominator*fraction.denominator;
+    	resultantFraction.numerator=this.numerator*fraction.denominator+this.denominator*fraction.numerator;
+    	return resultantFraction;
+    }
+    
 }

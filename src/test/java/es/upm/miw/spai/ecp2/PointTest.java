@@ -49,6 +49,14 @@ public class PointTest {
         assertEquals(3, pt.getX());
         assertEquals(2, pt.getY());
     }
+    
+    @Test
+    public void modifythirdPoint() {
+    	pt.thirdPoint(3, 2, 8);
+        assertEquals(3, pt.getX());
+        assertEquals(2, pt.getY());
+        assertEquals(8, pt.getZ());
+    }
 
     @Test
     public void testToString() {
