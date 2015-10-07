@@ -1,11 +1,12 @@
 package es.upm.miw.spai.ecp2;
 
 public class Point {
-    private int x, y;
+    private int x, y, z ;
 
     public Point(int x, int y) {
         this.x = x;
         this.y = y;
+        this.z = z;
     }
 
     public Point(int xy) {
@@ -22,6 +23,10 @@ public class Point {
 
     public int getY() {
         return this.y;
+    }
+    
+    public int getZ() {
+        return this.z;
     }
 
     public double module() {
@@ -40,6 +45,12 @@ public class Point {
     public void modifyPoint(int x, int y){
     	this.x=x;
     	this.y=y;
+    }
+    
+    public void thirdPoint(int x, int y, int z){
+    	this.x=x;
+    	this.y=y;
+    	this.z=z;
     }
 
     @Override
