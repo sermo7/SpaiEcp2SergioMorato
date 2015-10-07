@@ -60,5 +60,13 @@ public class DecimalCollectionTest {
     	decimalCollection.add(2.26);
     	assertEquals(1.94,decimalCollection.media(),0.001);     
     }
+    
+    @Test
+    public void lessTest(){
+    	decimalCollection.add(1.29);
+    	decimalCollection.add(2.27);
+    	decimalCollection.add(2.26);
+    	assertEquals(1.29,decimalCollection.less(), 0.001);
+    }
 
 }
