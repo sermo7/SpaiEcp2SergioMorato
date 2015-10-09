@@ -30,8 +30,8 @@ public class FractionTest {
 
     @Test
     public void decimalTest() {
-        assertEquals(1.0, fractionTest1.getDenominator(), 0.001);
-        assertEquals(2.0, fractionTest2.getDenominator(), 0.001);
+        assertEquals(1.0, fractionTest1.decimal(), 0.001);
+        assertEquals(2.0, fractionTest2.decimal(), 0.001);
     }
 
     @Test
