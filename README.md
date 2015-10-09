@@ -14,6 +14,6 @@ Este ejercicio consiste en mejorar el **[proyecto ECP2](https://github.com/miw-u
 * **Jennifer García**
 * **David Suárez Zerpa**
 
-Toda la información para esta mejora de proyecto se encuentra pinchando **[aquí]**
+Toda la información para esta mejora de proyecto se encuentra pinchando **[aquí](https://github.com/sermo7/SpaiEcp2SergioMorato/wiki)**
 
 
